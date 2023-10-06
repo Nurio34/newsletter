@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Newsletter Signup Form</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.min.css" >
+
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b69fb5b7db.css" crossorigin="anonymous" >
+
+    <script src="https://kit.fontawesome.com/b69fb5b7db.js" crossorigin="anonymous" ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <meta name="description" content="NAME">
+    <meta name="keywords" content="NAME">
+    <meta name="author" content="Nuri Salih Ersoy">
+    <!-- <base href="127.0.0.1:5500/"> -->
+  </head>
+
+  <body id="home">
+
+    <!-- HEADER'I BİTİR -->
+    <div class="container">
+
+      <header>
+
+        <picture>
+          <source media="(min-width: 376px )" srcset="./assets/images/illustration-sign-up-desktop.svg">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+        </picture>
+      </header>
+
+      <main>
+
+        <h1>Stay Updated!</h1>
+
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul>
+          <li><span class="icon"><img src="./assets/images/icon-list.svg" alt=""></span> Product discovery and building what matters</li>
+          <li><span class="icon"><img src="./assets/images/icon-list.svg" alt=""></span> Measuring to ensure updates are a success</li>
+          <li><span class="icon"><img src="./assets/images/icon-list.svg" alt=""></span> And much more!</li>
+        </ul>
+
+        <form>
+          <div class="validation-wrapper">
+            <label for="email">Email adress</label>
+            <p class="validation">Valid email required</p>
+          </div>
+          <input type="email" name="Email" id="email" placeholder="email@company.com"
+          pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
+          <input type="submit" value="Subscribe to monthly newsletter">
+          <!-- <input type="color" name="" id=""> -->
+        </form>
+
+      </main>
+
+    </div>
+
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./script/script.js"></script>
+</html>
